@@ -1,3 +1,8 @@
+---
+title: CUDA C++ Programming Guide
+date: 2024-01-30 
+tags: gpu
+---
 本篇记录CUDA C++ Programming Guide,以新的东西为主
 大致看下来重要的是2，4，5，
 <!--more-->

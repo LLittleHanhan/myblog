@@ -3,6 +3,7 @@ title: git
 date: 2024-01-30 
 tags: git
 ---
+git基本用法
 <!--more-->
 ## config
 ## git模型

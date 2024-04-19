@@ -1,4 +1,10 @@
-# cuda c best practics guide
+---
+title: cuda c best practics guide
+date: 2024-01-30 
+tags: gpu
+---
+cuda官方文档
+<!--more-->
 
 ## memory optimizations
 

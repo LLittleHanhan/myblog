@@ -3,6 +3,7 @@ title: circom2
 date: 2024-01-30 
 tags: zk
 ---
+circom的一个讲座，简单看看
 <!--more-->
 ## Albert Rubio: Circom 2.0:A Scalable Circuit Complier
 

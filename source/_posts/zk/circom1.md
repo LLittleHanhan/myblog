@@ -3,6 +3,7 @@ title: circom1
 date: 2024-01-30 
 tags: zk
 ---
+circom基本语法
 <!--more-->
 ## signal
 - 三类信号

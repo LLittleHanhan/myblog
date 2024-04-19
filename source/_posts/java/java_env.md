@@ -4,7 +4,7 @@ date: 2024-01-30
 tags: java
 ---
 
-
+java基础概念
 <!--more-->
 ## jdk和jvm
 - jdk: 早期叫jdk1.X，之后叫java SE X，最常用的版本jdk1.8（java 8）

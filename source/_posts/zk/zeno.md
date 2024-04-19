@@ -3,6 +3,7 @@ title: ZENO:A Type-based Optimization Framework for Zero Knowledge Neural Networ
 date: 2024-01-30 
 tags: zk
 ---
+一篇论文
 <!--more-->
 > We propose **privacy type driven** and **tensor-type driven** optimizations to further optimize the generated zkSNARK circuit
 

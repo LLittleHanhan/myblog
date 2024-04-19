@@ -3,6 +3,7 @@ title: linux package manage
 date: 2024-01-30 
 tags: linux
 ---
+linux包管理
 <!--more-->
 ## apt
 ### 源

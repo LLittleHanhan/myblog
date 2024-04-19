@@ -3,6 +3,7 @@ title: r1cs
 date: 2024-01-30 
 tags: zk
 ---
+r1cs约束
 <!--more-->
 
 >R1CS

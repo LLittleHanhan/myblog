@@ -3,6 +3,7 @@ title: linux env var
 date: 2024-01-30 
 tags: linux
 ---
+linux环境变量
 <!--more-->
 ## 文件
 顺序从下到上

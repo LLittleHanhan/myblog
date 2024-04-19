@@ -25,39 +25,31 @@ int main() {
     int lb = 0;
     static int s_la = 0;
     static int s_lb = 0;
-    cout << &a << endl;
-    cout << &b << endl;
-    cout << &ga << endl;
-    cout << &gb << endl;
-    cout << &s_ga << endl;
-    cout << &s_gb << endl;
-    cout << &c_ga << endl;
-    cout << &c_gb << endl;
-    cout << &la << endl;
-    cout << &lb << endl;
-    cout << &s_la << endl;
-    cout << &s_lb << endl;
+    cout << &a << endl;     // 0x576450897154
+
+    cout << &b << endl;     // 0x576450897164
+
+    cout << &ga << endl;    // 0x576450897158
+    cout << &gb << endl;    // 0x57645089715c
+    
+    cout << &s_ga << endl;  // 0x576450897168
+    cout << &s_gb << endl;  // 0x57645089716c
+
+    cout << &c_ga << endl;  // 0x576450895004
+    cout << &c_gb << endl;  // 0x576450895008
+
+    cout << &la << endl;  // 0x7fff6aafda70
+    cout << &lb << endl;  // 0x7fff6aafda74
+
+    cout << &s_la << endl;  // 0x576450897170
+    cout << &s_lb << endl;  // 0x576450897174
     cout << endl;
-    char s[] = "hello"; //char* const s
-    char* t = "world"; //const char* t
-    cout << &s << endl;  // 地址为0x7fffffffd9d2在栈区，内容为hello，即hello存储在栈区
-    cout << &t << endl;  // 地址为0x7fffffffd9c8在栈区，内容为0x55555555600c为常量区，即world存储在常量区
+    char s[] = "hello";  // char* const s
+    char* t = "world";   // const char* t
+    cout << &s << endl;  // 地址为0x7fff6aafda82在栈区，内容为hello，即hello存储在栈区
+    cout << &t << endl;  // 地址为0x7fff6aafda78在栈区，内容为0x57645089500c为常量区，即world存储在常量区
     return 0;
 }
-/*
-0x55555555815c
-0x555555558168
-0x55555555816c
-0x555555556004
-0x555555556008
-0x7fffffffd9c0
-0x7fffffffd9c4
-0x555555558170
-0x555555558174
-
-0x7fffffffd9d2
-0x7fffffffd9c8
-*/
 
 ```
 - 堆区
