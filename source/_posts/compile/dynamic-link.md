@@ -17,6 +17,7 @@ tags: compile
   2. `export LD_LIBRARY_PATH=$LD_BRARY_PATH:path`
   3. 默认路径`/usr/lib ...`
   4. 配置`/etc/ld.so.config`文件
+  
 `-Wl`这里gcc实际上是一个上层工具，编译链接过程中调用了预处理器，编译器，汇编器，链接器，`-Wl,rpath=`就是将参数传递给链接器,链接器对应ld指令
 ### 一个例子
 ```c++
@@ -78,7 +79,7 @@ ldconfig通常在系统启动时运行，而当用户安装了一个新的动态
 - 默认路径是`/usr/lib/pkgconfig` 环境变量`PKG_CONFIG_PATH`
 ```shell
 pkg-config --list-all
-pkg-config --modeversion name
+pkg-config --modversion name
 pkg-config --libs name
 pkg-config --cflags name
 g++ main.cpp -o test `pkg-config --libs --cflags name`

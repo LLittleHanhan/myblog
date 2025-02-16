@@ -17,7 +17,7 @@ tags: zk
 
 
 
-## 区块链和交易
+## bitcoin
 以下以比特币为背景
 ### Merkle哈希树
 结构很好理解![](pic/cryptocurrency-merkle.png)
@@ -29,16 +29,11 @@ tags: zk
 ### UTXO模型
 这种模型不直接记录用户资产，而是通过记录未花费的Output来计算资产，任何一笔资产都可以追根溯源![](pic/cryptocurrency-utxo.webp)
 实际情况可能是一对多，多对一等
-### 区块链中的交易
-关于交易有几个问题
-- 怎么找到属于属于自己的UTXO，且别人不能用
-- 一笔交易，除了交易双方的人的其他人能看到什么，信息隐蔽吗
-### zcash
-zcash相较于bitcoin使用了zk-snarks协议，来看看用在了哪里，以及和hash的关系
 
-
-- l1链
-- outsourcing computation
-
+## etherem
+### MPT
+### l2
+## zcash
+## filecoin
 
 
